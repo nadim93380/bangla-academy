@@ -2,20 +2,25 @@
 import { useLoaderData, useParams, } from "react-router-dom";
 import { addToLocalStorage, getFromLocalStorage } from "../../Utilities/LocalStorage";
 import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 const BookDetails = () => {
     const allbooks = useLoaderData();
-    const { id } = useParams()
-    const idInt = parseInt(id)
-    const readStorage = getFromLocalStorage()
+    const { id } = useParams();
+    const idInt = parseInt(id);
+    
 
     const targetBook = allbooks.find(book => book.id === idInt);
 
     const handleRead = idInt => {
-        
-        addToLocalStorage(idInt)
-        toast('Added to the Read Books')
+        const readStorage = getFromLocalStorage()
+        const exists = readStorage.find(readId => readId === idInt)
+        if (!exists) {
+            addToLocalStorage(idInt)
+            toast('Added to the Read Books')
+        } else {
+            toast('Already Added To Read Books')
+        }
     }
 
 
@@ -55,7 +60,7 @@ const BookDetails = () => {
                     </div>
 
                     <div className="flex items-center gap-3 font-bold">
-                        <button onClick={()=> handleRead(idInt)} className="btn px-7">Read</button>
+                        <button onClick={() => handleRead(idInt)} className="btn px-7">Read</button>
                         <button className="btn bg-sky-400">Wishlist</button>
                     </div>
 
