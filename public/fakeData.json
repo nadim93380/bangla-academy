@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "image": "https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?t=st=1718195865~exp=1718199465~hmac=a6d89ddef1c9da691f7f691d69a2b3d1d77545febb7cc9eee05967dea0f97732&w=1060",
+    "bookName": "The Mystery of Midnight Manor",
+    "author": "Samantha Jones",
+    "category": "Mystery",
+    "review": "A thrilling tale that keeps you guessing until the very end!",
+    "tags": ["mystery", "suspense", "thriller"],
+    "totalPages": 320,
+    "publisher": "Raven Books",
+    "yearOfPublishing": 2023,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "image": "https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?t=st=1718195865~exp=1718199465~hmac=a6d89ddef1c9da691f7f691d69a2b3d1d77545febb7cc9eee05967dea0f97732&w=1060",
+    "bookName": "Echoes of Eternity",
+    "author": "Alexander Smith",
+    "category": "Fantasy",
+    "review": "A mesmerizing journey through a world of magic and wonder.",
+    "tags": ["fantasy", "magic", "adventure"],
+    "totalPages": 400,
+    "publisher": "Mystic Press",
+    "yearOfPublishing": 2022,
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "image": "https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?t=st=1718195865~exp=1718199465~hmac=a6d89ddef1c9da691f7f691d69a2b3d1d77545febb7cc9eee05967dea0f97732&w=1060",
+    "bookName": "Whispers in the Wind",
+    "author": "Emily Roberts",
+    "category": "Romance",
+    "review": "A heartwarming love story that will leave you swooning.",
+    "tags": ["romance", "love", "relationships"],
+    "totalPages": 280,
+    "publisher": "Heartfelt Publications",
+    "yearOfPublishing": 2024,
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "image": "https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?t=st=1718195865~exp=1718199465~hmac=a6d89ddef1c9da691f7f691d69a2b3d1d77545febb7cc9eee05967dea0f97732&w=1060",
+    "bookName": "The Secret of Serenity Springs",
+    "author": "Michael Thompson",
+    "category": "Thriller",
+    "review": "A pulse-pounding rollercoaster of suspense!",
+    "tags": ["thriller", "suspense", "action"],
+    "totalPages": 350,
+    "publisher": "Thrillseeker Books",
+    "yearOfPublishing": 2021,
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "image": "https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?t=st=1718195865~exp=1718199465~hmac=a6d89ddef1c9da691f7f691d69a2b3d1d77545febb7cc9eee05967dea0f97732&w=1060",
+    "bookName": "Stars in the Sky",
+    "author": "Isabella Martinez",
+    "category": "Science Fiction",
+    "review": "An epic space opera that will leave you breathless.",
+    "tags": ["science fiction", "space", "adventure"],
+    "totalPages": 450,
+    "publisher": "Galactic Books",
+    "yearOfPublishing": 2025,
+    "rating": 4.9
+  },
+  {
+    "id": 6,
+    "image": "https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?t=st=1718195865~exp=1718199465~hmac=a6d89ddef1c9da691f7f691d69a2b3d1d77545febb7cc9eee05967dea0f97732&w=1060",
+    "bookName": "The Haunting of Hillside Manor",
+    "author": "Jonathan Davis",
+    "category": "Horror",
+    "review": "A spine-chilling tale that will keep you up at night!",
+    "tags": ["horror", "supernatural", "haunted"],
+    "totalPages": 300,
+    "publisher": "Eerie Press",
+    "yearOfPublishing": 2023,
+    "rating": 4.4
+  }
+]

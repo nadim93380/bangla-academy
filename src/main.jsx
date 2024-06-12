@@ -16,7 +16,8 @@ const router = createBrowserRouter([
     element: <MainLayout></MainLayout>,
     children: [{
       path: '/',
-      element:<Home></Home>
+      element: <Home></Home>,
+      loader: ()=> fetch('fakeData.json')
     },
       {
         path: '/listedbooks',
