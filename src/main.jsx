@@ -9,6 +9,7 @@ import MainLayout from './MainLayout/MainLayout';
 import Home from './Pages/Home';
 import ListedBooks from './Pages/ListedBooks';
 import PagesToRead from './Pages/PagesToRead';
+import BookDetails from './Components/BookDetails/BookDetails';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,11 @@ const router = createBrowserRouter([
       {
         path: '/pagestoread',
         element:<PagesToRead></PagesToRead>
+      },
+      {
+        path: '/book/:id',
+        element: <BookDetails></BookDetails>,
+        loader: ()=> fetch('fakeData.json')
       }
     ]
   },
