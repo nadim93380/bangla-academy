@@ -1,6 +1,6 @@
 
 import { useLoaderData, useParams, } from "react-router-dom";
-import { addToLocalStorage, getFromLocalStorage } from "../../Utilities/LocalStorage";
+import { addToLocalStorage, addToWLocalStorage, getFromLocalStorage, getWFromLocalStorage } from "../../Utilities/LocalStorage";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -19,7 +19,24 @@ const BookDetails = () => {
             addToLocalStorage(idInt)
             toast('Added to the Read Books')
         } else {
-            toast('Already Added To Read Books')
+            toast.error('Already Added To Read Books')
+        }
+    }
+
+    const handleWishlist = idInt => {
+        const readStorage = getFromLocalStorage()
+        const existsReadList = readStorage.find(readId => readId === idInt)
+        const WStorage = getWFromLocalStorage()
+        const exists = WStorage.find(WId => WId === idInt)
+
+        if (existsReadList) {
+            toast.error('Already Marked As Read')
+        }
+        else if (!exists) {
+            addToWLocalStorage(idInt)
+            toast('Added to the Wishlist')
+        } else {
+            toast.error('Already Added To Wishlist')
         }
     }
 
@@ -61,7 +78,7 @@ const BookDetails = () => {
 
                     <div className="flex items-center gap-3 font-bold">
                         <button onClick={() => handleRead(idInt)} className="btn px-7">Read</button>
-                        <button className="btn bg-sky-400">Wishlist</button>
+                        <button onClick={()=>handleWishlist(idInt)} className="btn bg-sky-400">Wishlist</button>
                     </div>
 
                 </div>
