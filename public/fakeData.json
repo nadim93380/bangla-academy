@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "image": "https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?t=st=1718195865~exp=1718199465~hmac=a6d89ddef1c9da691f7f691d69a2b3d1d77545febb7cc9eee05967dea0f97732&w=1060",
+    "image": "https://img.freepik.com/free-psd/book-hardcover-mockup-three-views_125540-226.jpg?t=st=1718259378~exp=1718262978~hmac=81efca71dab911308d8876a8730e86652c643f6f97e148eec9cb05a81ae6bdc2&w=1060",
     "bookName": "Echoes of Eternity",
     "author": "Alexander Smith",
     "category": "Fantasy",
@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "image": "https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?t=st=1718195865~exp=1718199465~hmac=a6d89ddef1c9da691f7f691d69a2b3d1d77545febb7cc9eee05967dea0f97732&w=1060",
+    "image": "https://img.freepik.com/free-photo/3d-render-books-fly-fall-blue-background_107791-17215.jpg?t=st=1718259433~exp=1718263033~hmac=0a82058bc36ec778c66067698e1c930c766a2b6497a8ad007906d721eaa7b025&w=996",
     "bookName": "Whispers in Wind",
     "author": "Emily Roberts",
     "category": "Romance",
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "image": "https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?t=st=1718195865~exp=1718199465~hmac=a6d89ddef1c9da691f7f691d69a2b3d1d77545febb7cc9eee05967dea0f97732&w=1060",
+    "image": "https://img.freepik.com/free-vector/professional-business-book-cover_23-2149490317.jpg?t=st=1718259520~exp=1718263120~hmac=5f10a10ecac01b3f39520623ba4c2394d0eee9fe48165ace63684edf37c62fe1&w=900",
     "bookName": "The Secret of Serenity Springs",
     "author": "Michael Thompson",
     "category": "Thriller",
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "image": "https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?t=st=1718195865~exp=1718199465~hmac=a6d89ddef1c9da691f7f691d69a2b3d1d77545febb7cc9eee05967dea0f97732&w=1060",
+    "image": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?t=st=1718259405~exp=1718263005~hmac=c6bd517bf4f3d809caa7557ab53d4e8221c268684b63ccacdfc6241ad67fa709&w=1060",
     "bookName": "Stars in the Sky",
     "author": "Isabella Martinez",
     "category": "Science Fiction",
@@ -66,7 +66,7 @@
   },
   {
     "id": 6,
-    "image": "https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?t=st=1718195865~exp=1718199465~hmac=a6d89ddef1c9da691f7f691d69a2b3d1d77545febb7cc9eee05967dea0f97732&w=1060",
+    "image": "https://img.freepik.com/free-psd/book-cover-blue-background-mock-up_1390-101.jpg?t=st=1718259570~exp=1718263170~hmac=1ef06a91446a9d73c5c69b7902fc19f3c498652daf2a7ffeea82ff114a82b534&w=996",
     "bookName": "The Haunting of Hillside Manor",
     "author": "Jonathan Davis",
     "category": "Horror",

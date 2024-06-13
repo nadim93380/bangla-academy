@@ -8,7 +8,7 @@ const BookCard = ({ book }) => {
         <Link to={`/book/${id}`}>
             <div className="card bg-base-100 shadow-xl">
                 <figure className="px-10 pt-10">
-                    <img src={book.image} alt="Shoes" className="rounded-xl" />
+                    <img src={book.image} alt="Shoes" className="rounded-xl w-full object-cover h-[230px]" />
                 </figure>
                 <div className="flex justify-around items-center px-10 mt-3">
                     {

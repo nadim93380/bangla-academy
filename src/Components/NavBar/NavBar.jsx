@@ -31,9 +31,11 @@ const NavBar = () => {
                     {link}
                 </ul>
             </div>
-            <div className="navbar-end gap-3">
-                <button className="btn btn-active btn-accent">Sign Up</button>
-                <button className="btn btn-info">Sign In</button>
+            <div className="navbar-end">
+                <div className="hidden lg:block">
+                    <button className="btn btn-active btn-accent mr-3">Sign Up</button>
+                    <button className="btn btn-info">Sign In</button>
+                </div>
             </div>
         </div>
     );

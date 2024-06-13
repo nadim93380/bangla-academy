@@ -47,7 +47,7 @@ const BookDetails = () => {
     return (
         <div className="p-9 ">
             <div className="flex justify-center gap-6 flex-col lg:flex-row">
-                <div className="bg-base-200 p-10 rounded-lg"><img src={targetBook.image} className="max-w-sm rounded-lg shadow-2xl" /></div>
+                <div className="bg-base-200 p-10 rounded-lg"><img src={targetBook.image} className="max-w-sm w-full object-cover rounded-lg shadow-2xl" /></div>
                 <div className="ml-6 space-y-3">
                     <h1 className="text-5xl font-bold pb-3 border-b-2">{targetBook.bookName}</h1>
                     <p className="pb-3 border-b-2">By {targetBook.author}</p>
@@ -62,19 +62,19 @@ const BookDetails = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-between items-center w-2/3">
+                    <div className="flex justify-between items-center w-full lg:w-2/3">
                         <h4>Number Of Pages : </h4>
                         <p className="font-bold">{targetBook.totalPages}</p>
                     </div>
-                    <div className="flex justify-between items-center w-2/3">
+                    <div className="flex justify-between items-center w-full lg:w-2/3">
                         <h4>Publisher : </h4>
                         <p className="font-bold">{targetBook.publisher}</p>
                     </div>
-                    <div className="flex justify-between items-center w-2/3">
+                    <div className="flex justify-between items-center w-full lg:w-2/3">
                         <h4>Year Of Publishing : </h4>
                         <p className="font-bold">{targetBook.yearOfPublishing}</p>
                     </div>
-                    <div className="flex justify-between items-center w-2/3">
+                    <div className="flex justify-between items-center w-full lg:w-2/3">
                         <h4>Rating : </h4>
                         <p className="font-bold">{targetBook.rating}</p>
                     </div>
