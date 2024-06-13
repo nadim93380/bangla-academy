@@ -1,18 +1,12 @@
-
-
+import { useLoaderData } from "react-router-dom";
 import { getFromLocalStorage } from "../../Utilities/LocalStorage";
 import ListCard from "../listCard/ListCard";
-import { useEffect, useState } from "react";
+
 
 
 const Readlist = () => {
-    const [allbooks, setAllBooks] = useState([])
     
-    useEffect(() => {
-        fetch("fakeData.json")
-            .then(res => res.json())
-            .then(data => setAllBooks(data))
-    }, [])
+    const allbooks = useLoaderData()
     
 
 

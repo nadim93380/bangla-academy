@@ -22,49 +22,49 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
-    errorElement:<ErrorPage></ErrorPage>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [{
       path: '/',
       element: <Home></Home>,
-      loader: ()=> fetch('fakeData.json')
+      loader: () => fetch('/fakeData.json')
     },
-      {
-        path: '/listedbooks',
-        element: <ListedBooks></ListedBooks>,
-        children: [
-          {
-            path: "/listedbooks",
-            element: <Readlist></Readlist>,
-            // loader: ()=> fetch('fakeData.json')
-          },
-          {
-            path: "/listedbooks/wishlist",
-            element: <Wishlist></Wishlist>,
-            loader: ()=> fetch('fakeData.json')
-          }
-        ]
-      },
-      {
-        path: '/pagestoread',
-        element: <PagesToRead></PagesToRead>,
-        loader: ()=> fetch('fakeData.json')
-      },
-      {
-        path: '/book/:id',
-        element: <BookDetails></BookDetails>,
-        loader: ()=> fetch('fakeData.json')
-      },
-      {
-        path: '/contact',
-        element:<Contact></Contact>
-      },
-      {
-        path: '/subscription',
-        element:<Subscription></Subscription>
-      }
+    {
+      path: '/listedbooks',
+      element: <ListedBooks></ListedBooks>,
+      children: [
+        {
+          path: "/listedbooks",
+          element: <Readlist></Readlist>,
+          loader: ()=> fetch('/fakeData.json')
+        },
+        {
+          path: "/listedbooks/wishlist",
+          element: <Wishlist></Wishlist>,
+          loader: () => fetch('/fakeData.json')
+        }
+      ]
+    },
+    {
+      path: '/pagestoread',
+      element: <PagesToRead></PagesToRead>,
+      loader: () => fetch('/fakeData.json')
+    },
+    {
+      path: '/book/:id',
+      element: <BookDetails></BookDetails>,
+      loader: () => fetch('/fakeData.json')
+    },
+    {
+      path: '/contact',
+      element: <Contact></Contact>
+    },
+    {
+      path: '/subscription',
+      element: <Subscription></Subscription>
+    }
     ]
-  },
-]);
+  
+  }]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
