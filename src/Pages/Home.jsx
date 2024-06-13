@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className="w-11/12 mx-auto">
+            <div className="w-11/12 lg:w-full mx-auto">
                 <div className="py-8 bg-slate-200 text-center text-4xl font-bold rounded-xl">
                     <h4>Books</h4>
                 </div>

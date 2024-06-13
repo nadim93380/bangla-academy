@@ -12,6 +12,12 @@ const NavBar = () => {
         <NavLink to='/pagestoread' className={({ isActive }) =>
             isActive ? "px-3 py-2 border-green-400 border text-green-400 rounded-lg font-bold" : "px-3 py-2 font-bold"
         }>Pages To Read</NavLink>
+        <NavLink to='/subscription' className={({ isActive }) =>
+            isActive ? "px-3 py-2 border-green-400 border text-green-400 rounded-lg font-bold" : "px-3 py-2 font-bold"
+        }>Subscription</NavLink>
+        <NavLink to='/contact' className={({ isActive }) =>
+            isActive ? "px-3 py-2 border-green-400 border text-green-400 rounded-lg font-bold" : "px-3 py-2 font-bold"
+        }>Contact Us</NavLink>
     </>
     return (
         <div className="navbar bg-base-100 my-4">

@@ -47,7 +47,7 @@ const BookDetails = () => {
     return (
         <div className="p-9 ">
             <div className="flex justify-center gap-6 flex-col lg:flex-row">
-                <div className="bg-base-200 p-10 rounded-lg"><img src={targetBook.image} className="max-w-sm w-full object-cover rounded-lg shadow-2xl" /></div>
+                <div className="bg-base-200 p-10 rounded-lg"><img src={targetBook.image} className=" w-full object-cover rounded-lg shadow-2xl" /></div>
                 <div className="ml-6 space-y-3">
                     <h1 className="text-5xl font-bold pb-3 border-b-2">{targetBook.bookName}</h1>
                     <p className="pb-3 border-b-2">By {targetBook.author}</p>
@@ -57,7 +57,7 @@ const BookDetails = () => {
                             <h4>Tag</h4>
                             <div>
                                 {
-                                    targetBook.tags.map((tag, idx) => <div key={idx} className="btn rounded-full text-green-400">{tag}</div>)
+                                    targetBook.tags.map((tag, idx) => <div key={idx} className="btn rounded-full text-green-400 mr-2">{tag}</div>)
                                 }
                             </div>
                         </div>
