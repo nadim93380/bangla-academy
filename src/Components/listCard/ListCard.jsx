@@ -7,7 +7,7 @@ const ListCard = ({ book }) => {
 
     return (
         <div>
-            <div className="rounded-lg bg-base-200 px-6 py-6 mt-3">
+            <div className="rounded-lg border px-6 py-6 mt-3">
                 <div className="flex flex-col lg:flex-row gap-6">
                     <img src={book.image} className="max-w-sm rounded-lg shadow-2xl" />
                     <div>

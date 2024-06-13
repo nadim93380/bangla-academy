@@ -4,7 +4,10 @@ import { addToLocalStorage, addToWLocalStorage, getFromLocalStorage, getWFromLoc
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const BookDetails = () => {
+    
+    
     const allbooks = useLoaderData();
     const { id } = useParams();
     const idInt = parseInt(id);

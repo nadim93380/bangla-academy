@@ -2,7 +2,7 @@
   {
     "id": 1,
     "image": "https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?t=st=1718195865~exp=1718199465~hmac=a6d89ddef1c9da691f7f691d69a2b3d1d77545febb7cc9eee05967dea0f97732&w=1060",
-    "bookName": "The Mystery of Midnight Manor",
+    "bookName": "The Mystery of Midnight",
     "author": "Samantha Jones",
     "category": "Mystery",
     "review": "In 'The Unraveling Mystery,' author masterfully crafts a labyrinth of suspense, drawing readers into a world where secrets reign supreme. With skillful prose and unexpected twists, each chapter unfolds like a carefully constructed puzzle, leaving readers spellbound until the satisfying conclusion. A must-read for fans of gripping psychological thrillers.",
@@ -28,7 +28,7 @@
   {
     "id": 3,
     "image": "https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?t=st=1718195865~exp=1718199465~hmac=a6d89ddef1c9da691f7f691d69a2b3d1d77545febb7cc9eee05967dea0f97732&w=1060",
-    "bookName": "Whispers in the Wind",
+    "bookName": "Whispers in Wind",
     "author": "Emily Roberts",
     "category": "Romance",
     "review": "Intriguing and thought-provoking, 'The Unraveling Mystery' captivates with its suspenseful plot and rich character development. Each page leaves you craving more, weaving a tale of secrets and deception that will linger in your mind long after the final chapter.",
