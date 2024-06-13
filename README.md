@@ -1,8 +1,9 @@
-# React + Vite
+# Bangla Academy React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here is some essentials :
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Bangla Academy Website](https://bangla-academy.netlify.app/)
+- This website is under construction.
+- The website doesn't store any kind of user data.
+- Local Storage functionality added for better user experience.
+- Beaware of copyright issues.
