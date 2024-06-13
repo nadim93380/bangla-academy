@@ -1,4 +1,5 @@
 
+
 import { getFromLocalStorage } from "../../Utilities/LocalStorage";
 import ListCard from "../listCard/ListCard";
 import { useEffect, useState } from "react";
@@ -12,6 +13,7 @@ const Readlist = () => {
             .then(res => res.json())
             .then(data => setAllBooks(data))
     }, [])
+    
 
 
     const readIdStorage = getFromLocalStorage()
@@ -23,8 +25,7 @@ const Readlist = () => {
     
     return (
         <div>
-            <h4>Hlw From Read List </h4>
-            <div className="space-y-3">
+            <div>
                 {
                     targetBooks.map(book=> <ListCard key={book.id} book={book}></ListCard>)
                 }

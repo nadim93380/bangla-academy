@@ -11,7 +11,8 @@ import ListedBooks from './Pages/ListedBooks';
 import PagesToRead from './Pages/PagesToRead';
 import BookDetails from './Components/BookDetails/BookDetails';
 import Readlist from './Components/ReadList/Readlist';
-import Wishlist from './Wishlist/Wishlist';
+import Wishlist from './Components/Wishlist/Wishlist';
+
 
 
 const router = createBrowserRouter([
@@ -34,7 +35,8 @@ const router = createBrowserRouter([
           },
           {
             path: "/listedbooks/wishlist",
-            element: <Wishlist></Wishlist>
+            element: <Wishlist></Wishlist>,
+            loader: ()=> fetch('fakeData.json')
           }
         ]
       },

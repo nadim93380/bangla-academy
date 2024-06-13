@@ -7,11 +7,11 @@ const ListCard = ({ book }) => {
 
     return (
         <div>
-            <div className="rounded-lg bg-base-200 px-6 py-6">
+            <div className="rounded-lg bg-base-200 px-6 py-6 mt-3">
                 <div className="flex flex-col lg:flex-row gap-6">
                     <img src={book.image} className="max-w-sm rounded-lg shadow-2xl" />
                     <div>
-                        <h1 className="text-5xl font-bold">{book.bookName}</h1>
+                        <h1 className="text-4xl font-bold">{book.bookName}</h1>
                         <p className="my-3">By <span className="font-bold">{book.author}</span></p>
                         <div className="flex items-center gap-5">
                             <div className="flex items-center gap-2">
